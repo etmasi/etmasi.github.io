@@ -142,4 +142,9 @@ nav ul ol {
 
 li {
     display: inline;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
 }
