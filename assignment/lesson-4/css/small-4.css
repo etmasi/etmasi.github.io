@@ -140,11 +140,7 @@ nav ul ol {
     top: 7px;
 }
 
-li {
+#current {
     display: inline;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 55px;
+    margin-left: 10px float
 }
