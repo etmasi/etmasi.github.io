@@ -142,5 +142,13 @@ nav ul ol {
 
 #current {
     display: inline;
-    margin-left: 10px float
+    margin-left: 10px float;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#current li {
+    display: inline;
+    font-size: 50px;
 }
