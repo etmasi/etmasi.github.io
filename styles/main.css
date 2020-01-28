@@ -1,0 +1,21 @@
+body{
+    font-family: 18px;
+}
+
+
+
+main{
+    margin: 10px auto ;
+     width: 960;
+}
+
+h1{
+
+}
+p{
+    border:1px solid #333;
+    padding : 7px;
+    background-color: white;
+    text-align: justify;
+
+}
