@@ -1,0 +1,15 @@
+
+.map{
+    display: flex;
+    flex-direction: row;
+
+}
+img{
+    width:50px;
+}
+#presentation{
+    text-align: center;
+}
+#foot-note{
+    text-align: center;
+}
