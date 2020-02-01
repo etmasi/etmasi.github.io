@@ -1,38 +1,82 @@
-@media only screen and (max-width: 600px)
-p{
+body {
     font-family: 'Roboto', sans-serif;
-}
-
-.map{
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-column-gap: 50px;
-    width: 80%;
-    margin: auto;
-}
-.map section{
-
-    border: ;
-    border-radius:15px ;
-    padding:10px;
-    font-size: 30px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    background-color:#fff ;
-    line-height:1.5em ;
-    height: ;
+    background-color: #D3D3D3;
+    color: #202223;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    grid-gap: 0.8em;
+    padding: 0.8em;
 }
 
 header,
 footer {
     background-color: black;
     margin: auto;
-    padding: .15em;
+    padding: .25em;
     color: #efe8e3;
 }
 
 
+/*01b6d1*/
+
+h1,
+h2,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
 
 h3 {
     font-size: large;
     font-family: arial;
     color: black;
+}
+
+section header {
+    background-color: #fff;
+    border-radius: 15px 15px 0px 0px;
+}
+
+img {
+    max-width: 90%;
+}
+
+header {
+    border-radius: 0 0 6px 6px;
+}
+
+footer {
+    border-radius: 6px 6px 0 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: .25em;
+    padding-top: 1em;
+}
+
+a:link {
+    color: #01b6d1;
+}
+
+a:visited {
+    color: #01b6d1;
+}
+
+a:hover {
+    color: #a92276;
+}
