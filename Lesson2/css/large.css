@@ -1,15 +1,15 @@
-
-.map{
-    display: flex;
-    flex-direction: row;
-
-}
-img{
-    width:50px;
-}
-#presentation{
-    text-align: center;
-}
-#foot-note{
-    text-align: center;
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 55em;
+    }
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+    header,
+    footer {
+        width: 55em;
+        text-align: center;
+    }
 }
