@@ -1,3 +1,8 @@
+header, main, footer{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #profile-background{
   background-color: grey;
   height: 40px;
@@ -20,8 +25,11 @@
 
 #photo > img{
   height:100px;
-  position:absolute;
-  right: 15px;
-  top:55px;
+  width: auto;
+  float: right;
   
+}
+
+footer {
+  padding: 10px;
 }
