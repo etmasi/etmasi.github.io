@@ -1,9 +1,124 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>How is the Weather</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/small-5.css">
+        <link rel="stylesheet" href="css/normalize-5.css">
+        <link rel="stylesheet" href="css/medium-5.css">
+        <link rel="stylesheet" href="css/large-5.css">
     </head>
     <body>
+        <header>
+            <picture>
+            <img src="images/logo.png" alt="The world logo">
+        </picture>
+            <section class="headings">
+                <h1>Weather traveller</h1>
+                <div  class="h1p">Bad weather, Good weather</div>
+            </section>
+        </header>
+        <nav class="layout" >
+            <ul id="primaryNav" class="hide">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <main>
+                <h1>Preston Idaho</h1>
+                <div class="heroContainer">
+                    <img class="heroImg" src="images/town.jpg" alt="Town Across The Plains" />
+                    <section class="weatherContain">
+                        <h2>Weather Summary</h2>
+                        <hr>
+                        <p>Currently: Sunny</p>
+                        <p>High: 76 &deg;F</p>
+                        <p>Wind Chill: &deg;F</p>
+                        <p>Humidity: 69%</p>
+                        <p>Wind Speed: 5 mph</p>
+                    </section>
+                </div>
+                <section class="forecast">
+                    <h2>5 day Forecast</h2>
+                    <div class="flex">
+                        <div class="column">
+                            <span class="day">SUNDAY</span>
+                            <img src="images/logo.png" alt="Sun">
+                            <span class="temp">87&deg;F</span>
+                        </div>
+                        <div class="column">
+                            <span class="day">MONDAY</span>
+                            <img src="images/logo.png" alt="Sun">
+                            <span class="temp">91&deg;F</span>
+                        </div>
+                        <div class="column">
+                            <span class="day">TUESDAY</span>
+                            <img src="images/logo.png" alt="Sun">
+                            <span class="temp">84&deg;F</span>
+                        </div>
+                        <div class="column">
+                            <span class="day">WEDNESDAY</span>
+                            <img src="images/logo.png" alt="Sun">
+                            <span class="temp">80&deg;F</span>
+                        </div>
+                        <div class="column">
+                            <span class="day">THURSDAY</span>
+                            <img src="images/logo.png" alt="Sun">
+                            <span class="temp">83&deg;F</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="containArticle">
+                    <img class="articleImg" src="images/gathering.jpg" alt="Group Gathered for Activity" />
+                    <h2>Founders Day Fresco</h2>
+                    <h4>By Marakavi Sini Etienne</h4>
+                    <p>I was recently reflecting upon the founders day event held at Foundation Park each year. I have been
+                        taking the fesitval for granted and have not been properly engaging in perhaps the most posular
+                        community event of the year. In response, I contacted Ms. Sharon via email and expressed my desire to
+                        serve on the event committee. Well, you guessed it, the phone rings almost immediately and she promplty
+                        asks me to be the event committee chair. Literally, good grief! My appreciation for the years of
+                        dedication, generous service of voulnteers and sponsors has excalted beyond what I thought I could feel
+                        for such a thing and ... <a href="">continue to full article</a></p>
+                </section>
+                <section class="contactInfo">
+                    <iframe
+                        src="images/map-image copy.png"
+                        width="350" height="250" frameborder="0" style="float:left" allowfullscreen=""></iframe>
+                    <h2>Windy Ways</h2>
+                    <p>&#128205; 30 N 1st St.</p>
+                    <p>Preston, ID 83263</p>
+                    <br>
+                    <p>&#9742; 999-999-9999</p>
+                    <p>&#127760;<a href="https://blangston731.github.io/Lesson%205/preston-5.html">windyways.com</a></p>
+                    <img class="social" src="images/facebook.png" alt="Facebook icon" />
+                    <img class="social" src="images/pinterest.png" alt="Pinterest icon" />
+                    <img class="social" src="images/twitter.png" alt="Tweiter icon" />
+                </section>
+        
+        
+            </main>
+            <footer> &copy;Windy Ways | Attributions | Marakavi Sini Etienne
+                <br>
+                <script src="js/timeDate.js"></script>
+            </footer>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/message.js"></script>
+        
+        
+        </body> 
+
+        </main>
         
     </body>
 </html>
