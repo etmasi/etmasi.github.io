@@ -95,4 +95,13 @@
         max-width: 350px;
         float: right;
     }
+   .info-container{
+    justify-self: center;
+    align-self: center;
+    padding-right: 30%;
+    
+   }
+   .contactInfo{
+       grid-auto-flow: column;
+   }
 }
